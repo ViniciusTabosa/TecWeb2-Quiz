@@ -1,0 +1,146 @@
+@font-face{
+    font-family: Orbitron;
+    src: local(Orbitron), url(../../fonte/orbitron/OrbitronLight-R7GV.ttf);
+}
+
+
+*{
+    padding: 0;
+    margin: 0; 
+}
+
+body{
+    background-color: #303B4C;
+    height: 100vh;
+    display: grid;
+}
+
+.estrela{
+    position: relative;
+    width: 1.5px;
+	height: 1.5px;
+	border-radius: 50%;
+	box-shadow:  
+    10px 100px white,
+    10px 320px white,
+    28px 498px white,
+    200px 100px white,
+    300px 150px white,
+    450px 200px white,
+    400px 175px white,
+    700px 225px white,
+    900px 275px white,
+    500px 575px white,
+    600px 50px white,
+    700px 100px white,
+    900px 150px white,
+    1100px 200px white,
+    1300px 250px white,
+    1500px 300px white,
+    1700px 350px white,
+    200px 400px white,
+    400px 450px white,
+    600px 500px white,
+    800px 550px white,
+    1000px 50px white,
+    1200px 100px white,
+    954px 521px white,
+    758px 415px white,
+    1125px 428px white,
+    1300px 526px white,
+    1157px 478px white,
+    990px 478px white,
+    1157px 300px white,
+    1254px 365px white,
+    975px 320px white,
+    889px 405px white,
+    268px 275px white,
+    148px 200px white,
+    122px 405px white,
+    180px 505px white,
+    600px 355px white,
+    488px 378px white,
+    568px 200px white,
+    432px 310px white,
+    400px 45px white;
+}
+
+.container{
+
+    width: 1000px;
+    height: 500px;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    grid-template-columns: 1fr 1fr;
+    background: #02040F;
+    border-radius: 20px;
+    grid-auto-rows: 500px;
+    gap: 25px;
+    overflow: hidden;
+}
+
+h1{
+    font-family: "Orbitron", sans-serif;
+    font-size: 3rem;
+    color: white;
+    max-width: 15ch;
+    margin-left: 50px;
+    margin-top: 25px;
+    letter-spacing: 0.25em;
+    margin-bottom: 80px;
+
+}
+
+.container-img .planeta{
+    max-width: 100%;
+    max-height: 300px;
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+.botao{
+    padding: 16px 32px;
+    text-transform: uppercase;
+    background-color: #FE9638;
+    border: none;
+    border-radius: 50px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    display: inline-block;
+    max-width: max-content;
+    margin-left: 50px;
+}
+
+.botao:hover{
+    background-color: #FCB75D;
+    animation: anima-botao 0.6s ease-in-out infinite alternate;
+}
+
+@keyframes anima-botao{
+    0% {
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+/* Smartphone */
+@media (width <= 576){
+
+}
+
+/* Tablet */
+
+@media(width <= 768px){
+
+}
+
+/* Tela grande */
+@media(width <= 1100px){
+    font-size: 2rem;
+  
+}
