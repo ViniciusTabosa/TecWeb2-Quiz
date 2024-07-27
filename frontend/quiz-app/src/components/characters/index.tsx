@@ -11,6 +11,7 @@ import character2 from '../../assets/characters/2.png';
 import character3 from '../../assets/characters/3.png';
 import { Navigation, Pagination } from 'swiper/modules';
 import { StaticImageData } from 'next/image';
+import Quiz from '../Quiz'; // Importe o componente Quiz
 
 type Characters = {
   name: string;
@@ -89,6 +90,7 @@ const Character = () => {
         <div className="selected-character">
           <h3>Personagem Selecionado:</h3>
           <p>{selectedCharacter.name}</p>
+          <Quiz selectedCharacter={selectedCharacter} /> {/* Passa o personagem selecionado para o Quiz */}
         </div>
       )}
     </div>
