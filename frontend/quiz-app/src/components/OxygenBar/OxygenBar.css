@@ -1,0 +1,13 @@
+.oxygen-bar-container {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.oxygen-bar {
+  height: 20px;
+  background-color: #4caf50;
+  transition: width 0.3s ease;
+}
