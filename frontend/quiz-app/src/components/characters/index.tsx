@@ -16,6 +16,7 @@ import Questions from '../Questions';
 
 type Characters = {
   name: string;
+  phrase: string;
   advantage: string;
   disadvantage: string;
   description: string;
@@ -26,6 +27,7 @@ type Characters = {
 const characters: Characters[] = [
   {
     name: 'Astro the Navigator',
+    phrase: 'Rumo ao infinito e além!',
     advantage: 'Clear Path - Exclui duas alternativas erradas.',
     disadvantage: 'Point Surge - A pergunta passa a valer menos pontos.',
     description: 'Astro é um navegador estelar lendário. Ele pode eliminar alternativas erradas, traçando um caminho claro, mas cada atalho vem com um custo elevado.',
@@ -34,6 +36,7 @@ const characters: Characters[] = [
   },
   {
     name: 'Luna the Dreamer',
+    phrase: 'Sonhe grande, descubra mais!',
     advantage: 'Dream Skip - Pode pular uma pergunta sem penalidade.',
     disadvantage: 'No points - Não ganha a pontuação da pergunta pulada.',
     description: 'Luna é uma sonhadora mística que vislumbra o futuro em seus devaneios. Seus olhos brilham com a luz das galáxias, permitindo-lhe evitar obstáculos inesperados, mas nem sempre suas visões trazem recompensas.',
@@ -42,6 +45,7 @@ const characters: Characters[] = [
   },
   {
     name: 'Sol the Explorer',
+    phrase: 'Desbrave o desconhecido!',
     advantage: 'Double Discovery - Dobra a pontuação de uma pergunta.',
     disadvantage: 'Severe Penalty - Penalidade maior de oxigênio em erros subsequentes.',
     description: 'Sol é um explorador audacioso que consegue ampliar em dobro suas descobertas. Infelizmente, sua habilidade tem um custo, pois qualquer erro subsequente impõe uma severa penalidade de oxigênio.',
@@ -84,7 +88,6 @@ const Character = () => {
         effect="cards" // Define o efeito de transição como "cards"
         speed={1000}
         modules={[Navigation, Pagination, EffectCards]} // Inclua o módulo de efeito "Cards"
-        pagination={{ clickable: true }}
         navigation={{
           nextEl: '.swiper-button-next-custom',
           prevEl: '.swiper-button-prev-custom'
@@ -94,11 +97,18 @@ const Character = () => {
         {characters.map((character) => (
           <SwiperSlide key={character.id}>
             <div className="character-card">
-              <img src={character.image.src} alt={character.name} className={getClassNameForCharacter(character)} />
-              <h3>{character.name}</h3>
-              <p className="character-description">{character.description}</p>
-              <p><strong>Vantagem:</strong> {character.advantage}</p>
-              <p><strong>Desvantagem:</strong> {character.disadvantage}</p>
+            <h3 className='character-name'>{character.name}</h3>
+              <div className='character-image-container'>
+                <img src={character.image.src} alt={character.name} className={getClassNameForCharacter(character)} />
+              </div>
+              <div className='character-phrase'>
+                <p><strong>{character.phrase}</strong></p>
+              </div>
+              <div className='character-description-container'>
+                <p className="character-description">{character.description}</p>
+                <p><strong>Vantagem:</strong> {character.advantage}</p>
+                <p><strong>Desvantagem:</strong> {character.disadvantage}</p>
+              </div>
               <button className='select-button' onClick={() => handleSelectCharacter(character)}>Selecionar</button>
             </div>
           </SwiperSlide>

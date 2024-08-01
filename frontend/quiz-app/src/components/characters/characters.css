@@ -1,59 +1,45 @@
+/* Configurações Swiper */
 .swiper-container {
   width: 500px;
-  position: relative; /* Garante que as setas se posicionem em relação ao contêiner */
+  position: relative; 
 }
 
 .swiper-slide {
-  display: flex; /* Faz com que o card se ajuste ao conteúdo */
-  justify-content: center; /* Centraliza o conteúdo do card */
-  align-items: center; /* Centraliza o conteúdo do card verticalmente */
-  width: 100%; /* Garante que o slide ocupe toda a largura do contêiner */
-  height: 100%; /* Garante que o slide ocupe toda a altura do contêiner */
-}
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 100%; 
+  height: 100%; 
+  overflow: hidden; 
+  border-radius: 15px; 
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 1)); 
 
-.character-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width: 100%; /* Ajuste a largura dos cards conforme necessário */
-  height: 650px;
-  box-sizing: border-box; /* Garante que o padding não aumente a largura total */
-  background-color: #fff; /* Cor de fundo opcional */
-  border-radius: 10px; /* Adiciona borda arredondada opcional */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra opcional */
-}
-
-.character-image {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  transition: transform 0.3s;
 }
 
 .swiper-button-prev-custom,
 .swiper-button-next-custom {
   position: absolute;
   top: 300px;
-  width: 60px; /* Aumentando a largura */
-  height: 60px; /* Aumentando a altura */
-  margin-top: -30px; /* Ajustando o alinhamento vertical */
+  width: 60px; 
+  height: 60px; 
+  margin-top: -30px; 
   z-index: 10;
   cursor: pointer;
   display: block;
-  background-size: 60px 60px; /* Ajustando o tamanho do background */
+  background-size: 60px 60px; 
   background-position: center;
   background-repeat: no-repeat;
-  transition: transform 0.3s ease, background-color 0.3s ease; /* Adicionado para animações */
+  transition: transform 0.3s ease, background-color 0.3s ease; 
 }
 
 .swiper-button-prev-custom {
-  left: -70px;
+  left: -130px;
   background-image: url('../../assets/arrows/Left.png'); 
 }
 
+
 .swiper-button-next-custom {
-  right: -70px;
+  right: -130px;
   background-image: url('../../assets/arrows/Right.png'); 
 }
 
@@ -66,14 +52,56 @@
 .swiper-button-prev-custom:active,
 .swiper-button-next-custom:active {
   transform: scale(0.9); 
-  filter: brightness(2);}
+  filter: brightness(2);
+}
 
+/*card dos personagens*/
 .character-card {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: justify;
+  padding: 10px 40px;
+  width: 100%; 
+  height: 700px;
+  box-sizing: border-box; 
+  background-color: #d6d6d6; 
+  border-radius: 15px; 
+  border: 10px solid #b6b6b6;
+  background-size: 20px 20px, 20px 20px;
+}
+
+.character-name{
+  color: #636363;
+  background-color: #b6b6b6;
+  padding: 10px 30px;
+  border-radius: 0px 30px ;
+  margin-top: 0px;
+}
+
+.character-phrase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 156px;
+  padding: 0px 120px;
+  margin: 0px;
+  margin-bottom: 10px;
+  border: 2px solid #ffffff; 
+  border-radius: 0px 0px 50px 50px; 
+  background-color: #b6b6b6a2; 
+  color: #636363; 
+  font-size: 1.1rem;
   text-align: center;
-  padding: 50px;
+  overflow: hidden; 
+  white-space: nowrap; 
+}
+
+.character-description-container{
+  background-color: white;
+  height: 200px;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 
 .character-image {
@@ -81,6 +109,14 @@
   height: 200px;
   object-fit: cover;
   transition: transform 0.3s;
+  padding: 0px 100px;
+}
+
+.character-image-container{
+  display: inline-block;
+  padding: 20px 0px;
+  background-color: white; 
+  border-radius: 5px 5px 0px 0px; 
 }
 
 .character-image-astro {
@@ -103,6 +139,9 @@
   margin: 0;
 }
 
+
+
+/*Botão selecionar personagem*/
 @keyframes twinkle {
   0%, 100% {
     opacity: 0.5;
@@ -116,8 +155,8 @@
   z-index: 10;
   position: relative;
   padding: 12px 24px;
-  margin-top: 10px;
-  background-color: #000031; 
+  margin-top: 20px;
+  background-color: #313131; 
   color: white;
   border: none;
   border-radius: 5px; 
@@ -128,12 +167,12 @@
 }
 
 .select-button:hover {
-  background-color: #07074f; 
+  background-color: #1a1a75; 
   transform: scale(1.05); 
 }
 
 .select-button:active {
-  background-color: #000031; 
+  background-color: #0000bb; 
   transform: scale(1); 
 }
 
