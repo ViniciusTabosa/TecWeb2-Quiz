@@ -6,7 +6,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Quiz de Astronomia',
+  title: 'Starion',
   description: 'Escolha seu personagem e comece o quiz!',
 };
 
@@ -16,7 +16,7 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body className={inter.className}>{children}</body>
     </html>
   );

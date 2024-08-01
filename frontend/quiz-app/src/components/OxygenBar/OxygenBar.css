@@ -8,6 +8,18 @@
 
 .oxygen-bar {
   height: 20px;
+  transition: width 0.3s ease, background-color 0.5s ease;
+}
+
+/* Cores */
+.oxygen-bar-green {
   background-color: #4caf50;
-  transition: width 0.3s ease;
+}
+
+.oxygen-bar-yellow {
+  background-color: #ffeb3b;
+}
+
+.oxygen-bar-red {
+  background-color: #f44336;
 }
