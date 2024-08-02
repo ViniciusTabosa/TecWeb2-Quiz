@@ -1,0 +1,84 @@
+.container{
+
+    width: 1000px;
+    height: 500px;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    grid-template-columns: 1fr 1fr;
+    background: #02040F;
+    border-radius: 20px;
+    grid-auto-rows: 500px;
+    gap: 25px;
+    overflow: hidden;
+}
+
+.titulo_inicial{
+    font-family: "Orbitron", sans-serif;
+    font-size: 3rem;
+    color: white;
+    max-width: 15ch;
+    margin-left: 50px;
+    margin-top: 25px;
+    letter-spacing: 0.25em;
+    margin-bottom: 80px;
+
+}
+
+.container-img .planeta{
+    max-width: 100%;
+    max-height: 300px;
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+.botao{
+    padding: 16px 32px;
+    text-transform: uppercase;
+    background-color: #FE9638;
+    border: none;
+    border-radius: 50px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    display: inline-block;
+    max-width: max-content;
+    margin-left: 50px;
+}
+
+.botao:hover{
+    background-color: #FCB75D;
+    animation: anima-botao 0.6s ease-in-out infinite alternate;
+}
+
+@keyframes anima-botao{
+    0% {
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+
+.fecharBTNCadastro{
+    display: none;
+}
+
+/* Smartphone */
+@media (width <= 576){
+
+}
+
+/* Tablet */
+
+@media(width <= 768px){
+
+}
+
+/* Tela grande */
+@media(width <= 1100px){
+  
+  
+}
