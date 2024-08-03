@@ -3,3 +3,280 @@ body {
     padding: 0px;
     overflow: auto;
   }
+@font-face{
+    font-family: Orbitron;
+    src: local(Orbitron), url(../fonts/orbitron/OrbitronLight-R7GV.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* *{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+} */
+
+
+
+.estrela{
+    position: absolute;
+    width: 1.5px;
+	height: 1.5px;
+	border-radius: 50%;
+    animation: efeito 2.5s infinite;
+    box-shadow: 
+    35px 700px 0 white,
+    90px 380px 0 white,
+    43px 402px 0 white,
+    145px 600px 0 white,
+    80px 80px 0 white,
+    210px 25px 0 white,
+    190px 170px 0 white,
+    380px 100px 0 white,
+    300px 130px 0 white,
+    270px 205px 0 white,
+    35px 700px 0 white,
+    75px 550px 0 white,
+    125px 623px 0 white,
+    180px 700px 0 white,
+    280px 670px 0 white,
+    355px 700px 0 white,
+    480px 708px 0 white,
+    540px 680px 0 white,
+    635px 650px 0 white,
+    700px 700px 0 white,
+    780px 700px 0 white,
+    890px 640px 0 white,
+    940px 692px 0 white,
+    1100px 700px 0 white,
+    1225px 700px 0 white,
+    1200px 630px 0 white,
+    1305px 645px 0 white,
+    1425px 700px 0 white,
+    1395px 500px 0 white,
+    1365px 455px 0 white,
+    1425px 300px 0 white,
+    1500px 535px 0 white,
+    1550px 535px 0 white,
+    1520px 605px 0 white,
+    1285px 300px 0 white,
+    1360px 380px 0 white,
+    1420px 420px 0 white,
+    1565px 460px 0 white,
+    1390px 600px 0 white,
+    1000px 660px 0 white,
+    1080px 645px 0 white,
+    1040px 200px 0 white,
+    1005px 290px 0 white,
+    1020px 370px 0 white,
+    1060px 310px 0 white,
+    1055px 433px 0 white,
+    1025px 500px 0 white,
+    1030px 600px 0 white,
+    1100px 500px 0 white,
+    1110px 560px 0 white;
+
+}
+
+.estrela2{
+    position: absolute;
+    width: 1.5px;
+	height: 1.5px;
+	border-radius: 50%;
+    animation: efeito2 2.5s infinite;
+	box-shadow: 
+    975px 320px 0 white,
+    889px 405px 0 white,
+    268px 275px 0 white,
+    148px 200px 0 white,
+    122px 405px 0 white,
+    180px 505px 0 white,
+    600px 355px 0 white,
+    488px 378px 0 white,
+    568px 200px 0 white,
+    432px 310px 0 white,
+    300px 530px 0 white,
+    325px 400px 0 white,
+    200px 600px 0 white,
+    240px 180px 0 white,
+    255px 350px 0 white,
+    60px 420px 0 white,
+    48px 310px 0 white,
+    460px 450px 0 white,
+    340px 350px 0 white,
+    135px 500px 0 white,
+    350px 608px 0 white,
+    535px 500px 0 white,
+    410px 530px 0 white,
+    429px 630px 0 white,
+    210px 300px 0 white,
+    357px 260px 0 white,
+    280px 460px 0 white,
+    550px 300px 0 white,
+    500px 240px 0 white;
+    filter: blur(2px); 
+}
+
+.estrela3{
+    width: 1.5px;
+	height: 1.5px;
+    border-radius: 50%;
+    position: absolute;
+    animation: efeito 3s infinite;
+    box-shadow: 
+    1485px 485px 0 yellow,
+    1550px 30px 0 yellow,
+    1445px 55px 0 yellow,
+    1365px 95px 0 yellow,
+    1550px 145px 0 yellow,
+    1480px 220px 0 yellow,
+    1420px 200px 0 yellow,
+    1380px 209px 0 yellow,
+    1555px 330px 0 yellow,
+    1100px 370px 0 yellow,
+    1220px 450px 0 yellow,
+    1200px 570px 0 yellow,
+    1220px 180px 0 yellow,
+    1120px 140px 0 yellow,
+    1320px 370px 0 yellow,
+    1300px 120px 0 yellow,
+    1220px 270px 0 yellow,
+    1180px 370px 0 yellow,
+    1120px 140px 0 yellow,
+    35px 25px 0 yellow,
+    85px 45px 0 yellow,
+    200px 25px 0 yellow,
+    65px 165px 0 yellow,
+    85px 235px 0 yellow,
+    125px 300px 0 yellow,
+    330px 25px 0 yellow,
+    435px 85px 0 yellow,
+    555px 63px 0 yellow,
+    685px 12px 0 yellow,
+    755px 39px 0 yellow,
+    835px 45px 0 yellow,
+    905px 85px 0 yellow,
+    925px 35px 0 yellow,
+    1020px 85px 0 yellow,
+    500px 22px 0 yellow,
+    1100px 45px 0 yellow,
+    1220px 25px 0 yellow,
+    1355px 45px 0 yellow,
+    435px 85px 0 yellow,
+    400px 45px 0 yellow;
+    
+}
+
+.estrela4{
+    width: 1.5px;
+	height: 1.5px;
+    border-radius: 50%;
+    position: absolute;
+    animation: efeito2 4s infinite;
+    box-shadow: 
+    10px 100px 0 yellow,
+    10px 320px 0 yellow,
+    28px 498px 0 yellow,
+    200px 100px 0 yellow,
+    300px 150px 0 yellow,
+    450px 200px 0 yellow,
+    400px 175px 0 yellow,
+    700px 225px 0 yellow,
+    900px 275px 0 yellow,
+    500px 575px 0 yellow,
+    600px 50px 0 yellow,
+    700px 100px 0 yellow,
+    900px 150px 0 yellow,
+    1100px 200px 0 yellow,
+    1300px 250px 0 yellow,
+    1500px 300px 0 yellow,
+    1700px 350px 0 yellow,
+    200px 400px 0 yellow,
+    400px 450px 0 yellow,
+    600px 500px 0 yellow,
+    800px 550px 0 yellow,
+    1000px 50px 0 yellow,
+    1200px 100px 0 yellow,
+    954px 521px 0 yellow,
+    758px 415px 0 yellow,
+    1125px 428px 0 yellow,
+    1300px 526px 0 yellow,
+    1157px 478px 0 yellow,
+    990px 478px 0 yellow,
+    1157px 300px 0 yellow,
+    1254px 365px 0 yellow;
+    filter: blur(2px); 
+
+}
+
+@keyframes efeito {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes efeito2 {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.header-bg{
+    width: 100%;
+    display: flex;
+    height: 100px;
+    justify-content:  space-between;
+    align-items: center;
+    position: relative;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-right: 60px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 16px 32px;
+    text-transform: uppercase;
+}
+
+li:nth-child(2){
+    background-color: #303B4C;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 1px 1px rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(10px);
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+li:nth-child(2):hover{
+    background: rgba(255, 255, 255, 0.3); 
+}
+
+.logo{
+   margin-left: 80px;
+    width: 200px;
+    height: 100px;
+}
+
+.logo img{
+    width: 100%;
+}
+

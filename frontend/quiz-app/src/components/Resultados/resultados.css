@@ -1,0 +1,102 @@
+.container_login2_bg{
+    display: block;
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    background-color: #02040f60;
+    border-radius: 20px;
+}
+
+
+.container_login2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   justify-items: center;
+    margin-top: 40px;
+
+}
+
+.desc{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 300px;
+    gap: 0 120px;
+}
+
+.desc h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #FAF0CA;
+    font-weight: 400;
+}
+
+.desc span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #FAF0CA;
+    font-weight: 0;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+}
+
+.result_pessoal h2{
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 1.4rem;
+    color: #FAF0CA;
+}
+
+.result_global h2{
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 1.4rem;
+    color: #FAF0CA;
+}
+
+.botaos{
+    margin-top: 185px;
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;   
+}
+
+.botaos button{
+    padding: 16px 32px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-family: "Orbitron", sans-serif;
+    border: none;
+    color: #02040F;
+    cursor: pointer;
+}
+
+.btn_voltar{
+    background-color: #FAF0CA;
+}
+
+.btn_deletar{
+    background-color: rgb(221, 103, 103);
+   
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+.btn_deletar:hover{
+    background-color: rgba(221, 103, 103, 0.664);
+}
+
+.btn_voltar:hover{
+    background-color: #f5f2e4de;
+}
+
+.btn_jogar{
+    background-color: #56876D;
+
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+.btn_jogar:hover{
+    background-color: #56876dad;
+}
