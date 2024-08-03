@@ -61,11 +61,6 @@
     }
 }
 
-
-.fecharBTNCadastro{
-    display: none;
-}
-
 /* Smartphone */
 @media (width <= 576){
 

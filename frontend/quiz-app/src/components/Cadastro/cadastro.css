@@ -2,7 +2,7 @@
 .container-form{
     width: 400px;
     height: 500px;
-    display: none;
+    display: grid;
     justify-self: center;
     align-items: center;
     background-color:#EBD4B8;
@@ -10,9 +10,6 @@
     position: relative;
 }
 
-.container-form.ativo{
-    display: grid;
-}
 
 .container-form img{
     display: block;
@@ -81,7 +78,7 @@ label{
     font-family: "Orbitron", sans-serif;
     letter-spacing: 0.2rem;
     font-size: 1.75rem;
-    color: #FAF0CA;
+    color: #02040F;
     margin-bottom: 50px;
 }
 
