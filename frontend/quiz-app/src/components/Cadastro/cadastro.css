@@ -1,21 +1,28 @@
+.container-form-bg{
+    width: 400px;
+    height: 450px;
+    display: block;
+    margin: auto auto;
+    background-color:#EBD4B8;
+    border-radius: 20px;
+}
 
 .container-form{
-    width: 400px;
-    height: 500px;
     display: grid;
-    justify-self: center;
-    align-items: center;
-    background-color:#EBD4B8;
+    grid-template-rows: 300px 200px;
     border-radius: 20px;
     position: relative;
 }
 
+.container-form.ativo{
+    display: grid;
+}
 
 .container-form img{
     display: block;
     max-width: 128px;
     width: 100%;
-    top: 10px;
+    top: 12px;
     right: 12px;
     position: absolute;
     z-index: 5;
@@ -24,13 +31,14 @@
 .form{
     width: 300px;
     margin-left: 30px;  
+    margin-top: 60px;
  }
 
- form{
+#form{
     width: 100%;
     max-width: 300px;
     padding: 2%;
-
+    margin-top: 60px;
  }
 
 .input{
@@ -38,7 +46,7 @@
     margin: 30px 0;
 }
 
-input{
+.input input{
     width: 100%;
     padding: 5px;
     border: none;
@@ -51,7 +59,7 @@ input{
     transition: 0.5s ease-in-out;
 }
 
-label{
+.input label{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     position: absolute;
@@ -94,6 +102,7 @@ label{
     display: grid;
     height: 50px;
     width: 200px;
+    margin-top: 170px;
     justify-content: center;
     align-items: center;
     border-radius: 50px;

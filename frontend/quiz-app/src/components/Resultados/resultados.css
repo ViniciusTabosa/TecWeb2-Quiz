@@ -1,11 +1,12 @@
 .container_login2_bg{
     display: block;
-    margin: 0 auto;
+    margin: auto;
     width: 800px;
-    height: 500px;
+    height: 400px;
     background-color: #02040f60;
     border-radius: 20px;
 }
+
 
 .container_login2{
     display: grid;
@@ -54,7 +55,7 @@
 }
 
 .botaos{
-    margin-top: 280px;
+    margin-top: 185px;
     display: flex;
     width: 800px;
     justify-content: space-evenly;   
