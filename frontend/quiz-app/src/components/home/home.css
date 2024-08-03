@@ -25,7 +25,7 @@
     margin-top: 25px;
     letter-spacing: 0.25em;
     margin-bottom: 80px;
-
+    
 }
 
 .container-img .planeta{
@@ -33,7 +33,9 @@
     max-height: 300px;
     margin-top: 250px;
     margin-left: 200px;
-
+    /* position: absolute; */
+    /* object-fit: cover;
+    display: block; */
 }
 
 .botao{
@@ -46,7 +48,7 @@
     font-weight: bolder;
     letter-spacing: 0.2rem;
     cursor: pointer;
-    display: inline-block;
+    display: block;
     max-width: max-content;
     margin-left: 50px;
 }
