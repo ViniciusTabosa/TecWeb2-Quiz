@@ -2,6 +2,8 @@
 .swiper-container {
   width: 800px;
   position: relative; 
+  display: block;
+  margin: auto;
 }
 
 .swiper-slide {

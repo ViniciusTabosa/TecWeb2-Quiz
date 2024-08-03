@@ -1,8 +1,3 @@
-body {
-    margin: 0px;
-    padding: 0px;
-    overflow: auto;
-  }
 @font-face{
     font-family: Orbitron;
     src: local(Orbitron), url(../fonts/orbitron/OrbitronLight-R7GV.ttf);
@@ -16,7 +11,12 @@ body {
     box-sizing: border-box;
 } */
 
-
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+    background-color: #303B4C;
+}
 
 .estrela{
     position: absolute;

@@ -6,6 +6,7 @@ import Logo from '@/app/fotos_do site/Starion_Logo2.png'
 import { Cadastro } from '@/components/Cadastro';
 import { Login } from '@/components/Login';
 import { Resultados } from '@/components/Resultados';
+import Character from '@/components/characters';
 
 export default function page() {
   return (
@@ -28,10 +29,11 @@ export default function page() {
       <div className="estrela2"></div>
       <div className="estrela3"></div>
       <div className="estrela4"></div>
+      <Character />
       {/* <Resultados /> */}
       {/* <Login /> */}
       {/* <Cadastro /> */}
-      <Home /> 
+      {/* <Home />  */}
       {/* </main> */}
     </>
   )
