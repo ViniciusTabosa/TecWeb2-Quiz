@@ -1,18 +1,19 @@
 "use client";
 
 import './characters.css';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/effect-cards'; // Importar o CSS específico para o efeito "Cards"
+import 'swiper/css/effect-cards';
 import character1 from '../../assets/characters/1.png';
 import character2 from '../../assets/characters/2.png';
 import character3 from '../../assets/characters/3.png';
 import { EffectCards, Navigation, Pagination } from 'swiper/modules';
 import { StaticImageData } from 'next/image';
 import Questions from '../Questions';
+import SoundsComp from '../soundscomp'; 
 
 type Characters = {
   name: string;
@@ -54,8 +55,10 @@ const characters: Characters[] = [
   },
 ];
 
-const Character = () => {
+const Character: React.FC = () => {
   const [selectedCharacter, setSelectedCharacter] = useState<Characters | null>(null);
+  
+  const swiperRef = useRef<any>(null); 
 
   const handleSelectCharacter = (character: Characters) => {
     setSelectedCharacter(character);
@@ -83,8 +86,10 @@ const Character = () => {
 
   return (
     <div className='swiper-container'>
+      <SoundsComp swiperRef={swiperRef} />
       <div className="swiper-button-prev-custom"></div> {/* Adicionado botão de seta anterior */}
       <Swiper
+        ref={swiperRef} // Adiciona a referência aqui
         effect="cards" // Define o efeito de transição como "cards"
         speed={1000}
         modules={[Navigation, Pagination, EffectCards]} // Inclua o módulo de efeito "Cards"
