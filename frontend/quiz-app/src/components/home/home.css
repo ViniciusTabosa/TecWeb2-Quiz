@@ -13,6 +13,7 @@
     grid-auto-rows: 500px;
     gap: 25px;
     overflow: hidden;
+    
 }
 
 .titulo_inicial{
@@ -31,7 +32,8 @@
     max-width: 100%;
     max-height: 300px;
     margin-top: 250px;
-    margin-left: 150px;
+    margin-left: 200px;
+
 }
 
 .botao{

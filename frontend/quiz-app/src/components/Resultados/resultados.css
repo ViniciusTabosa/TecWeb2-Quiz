@@ -89,3 +89,14 @@
 .btn_voltar:hover{
     background-color: #f5f2e4de;
 }
+
+.btn_jogar{
+    background-color: #56876D;
+
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+.btn_jogar:hover{
+    background-color: #56876dad;
+}

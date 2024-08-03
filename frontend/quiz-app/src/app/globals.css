@@ -1,8 +1,9 @@
 @font-face{
     font-family: Orbitron;
-    src: local(Orbitron), url(../../fonte/orbitron/OrbitronLight-R7GV.ttf);
+    src: local(Orbitron), url(../fonts/orbitron/OrbitronLight-R7GV.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 *{
     padding: 0;
