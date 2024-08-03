@@ -97,19 +97,23 @@ const Character = () => {
         {characters.map((character) => (
           <SwiperSlide key={character.id}>
             <div className="character-card">
-            <h3 className='character-name'>{character.name}</h3>
-              <div className='character-image-container'>
-                <img src={character.image.src} alt={character.name} className={getClassNameForCharacter(character)} />
+              <div className='character-name-container'>
+                <h3 className='character-name'>{character.name}</h3>
+                <div className='character-image-container'>
+                  <img src={character.image.src} alt={character.name} className={getClassNameForCharacter(character)} />
+                </div>
+                <div className='character-phrase'>
+                  <p><strong>{character.phrase}</strong></p>
+                </div>
               </div>
-              <div className='character-phrase'>
-                <p><strong>{character.phrase}</strong></p>
+              <div className='character-button-container'>
+                <div className='character-description-container'>
+                  <p className="character-description">{character.description}</p>
+                  <p><strong>Vantagem:</strong> {character.advantage}</p>
+                  <p><strong>Desvantagem:</strong> {character.disadvantage}</p>
+                </div>
+                <button className='select-button' onClick={() => handleSelectCharacter(character)}>Selecionar</button>
               </div>
-              <div className='character-description-container'>
-                <p className="character-description">{character.description}</p>
-                <p><strong>Vantagem:</strong> {character.advantage}</p>
-                <p><strong>Desvantagem:</strong> {character.disadvantage}</p>
-              </div>
-              <button className='select-button' onClick={() => handleSelectCharacter(character)}>Selecionar</button>
             </div>
           </SwiperSlide>
         ))}
