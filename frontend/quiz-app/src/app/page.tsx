@@ -13,27 +13,28 @@ export default function page() {
     <>
       {/* <main className={styles.main}> */}
       
-      <header className='header-bg'>
-        <div className="logo">
-          <img src={Logo.src} alt="" />
-        </div>
-        <nav className="nav">
-          <ul>
-              <li><a href="/" className="btn-Entar">Entrar</a></li>
-              <li><a href="/" className="btn-Conta">Criar conta</a></li>
-          </ul>
-        </nav>
-      </header>
-
-      <div className="estrela"></div>
-      <div className="estrela2"></div>
-      <div className="estrela3"></div>
-      <div className="estrela4"></div>
-      <Character />
-      {/* <Resultados /> */}
-      {/* <Login /> */}
-      {/* <Cadastro /> */}
-      {/* <Home />  */}
+    
+         <header className='header-bg'>
+          <div className="logo">
+            <img src={Logo.src} alt="" />
+          </div>
+          <nav className="nav">
+            <ul>
+                <li><a href="/" className="btn-Entar">Entrar</a></li>
+                <li><a href="/" className="btn-Conta">Criar conta</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div className="estrela"></div>
+        <div className="estrela2"></div>
+        <div className="estrela3"></div>
+        <div className="estrela4"></div> 
+ 
+      {/* <Character /> */}
+      {/* <Resultados />  */}
+      {/* <Login />  */}
+       {/* <Cadastro />  */}
+        <Home />    
       {/* </main> */}
     </>
   )

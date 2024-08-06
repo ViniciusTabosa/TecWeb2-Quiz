@@ -1,8 +1,8 @@
 .container_login2_bg{
     display: block;
-    margin: auto;
+    margin:  50px auto 0 auto;
     width: 800px;
-    height: 400px;
+    height: 480px;
     background-color: #02040f60;
     border-radius: 20px;
 }
@@ -11,25 +11,17 @@
 .container_login2{
     display: grid;
     grid-template-columns: 1fr 1fr;
-   justify-items: center;
-    margin-top: 40px;
-
+    justify-items: center;
 }
 
 .desc{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
     width: 300px;
     gap: 0 120px;
+    margin-top: 20px;
 }
 
-.desc h4{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    color: #FAF0CA;
-    font-weight: 400;
-}
 
 .desc span{
     font-family: 'Roboto', sans-serif;
@@ -45,6 +37,7 @@
     letter-spacing: 0.2rem;
     font-size: 1.4rem;
     color: #FAF0CA;
+
 }
 
 .result_global h2{
@@ -54,8 +47,14 @@
     color: #FAF0CA;
 }
 
+.result_global h2,
+ .result_pessoal h2{
+    margin-top: 40px;
+}
+
+
 .botaos{
-    margin-top: 185px;
+    margin-top: 290px;
     display: flex;
     width: 800px;
     justify-content: space-evenly;   
@@ -92,11 +91,50 @@
 
 .btn_jogar{
     background-color: #56876D;
-
-    font-weight: 500;
-    letter-spacing: 0.1rem;
 }
 
 .btn_jogar:hover{
-    background-color: #56876dad;
+    background-color: #56876D;
 }
+
+/* @media(min-width: 1650px) and (max-width: 2500px){
+  
+    .container_login2_bg{
+        margin:  50px auto 0 auto;
+        width: 1200px;
+        height: 700px;
+      
+    }
+    .container_login2{
+        width: 1200px;
+    }
+    .result_pessoal h2, 
+    .result_global h2{
+        font-size: 2.5rem;
+        margin-top: 60px;
+        display: inline-block;
+    }
+    .desc span{
+        font-size: 1.8rem;
+    }
+    .botaos{
+        margin-top: 350px;
+        width: 1200px; 
+    }   
+    .botaos button{
+        padding: 32px 48px;
+       
+    }
+    .desc span{
+
+        display: inline-block;
+    }
+    .btn_deletar, 
+    .btn_jogar, 
+    .btn_voltar{
+        font-weight: 500;
+        letter-spacing: 0.1rem;
+        font-size: 1.5rem;
+    }  
+} */
+

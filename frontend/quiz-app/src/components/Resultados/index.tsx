@@ -8,7 +8,7 @@ export const Resultados = () => {
                 <div className="result_pessoal">
                     <h2>Pontuação Pessoal</h2>
                     <div className="desc">
-                        <h4>Nome</h4>
+                        <span>Nome</span>
                         <span>Pontuação</span>
                     </div>
                 </div>
@@ -16,7 +16,7 @@ export const Resultados = () => {
                 <div className="result_global">
                     <h2>Ranking Geral</h2>
                     <div className="desc">
-                        <h4>Jogador</h4>
+                        <span>Jogador</span>
                         <span>Resultado</span>
                     </div>
                 </div>

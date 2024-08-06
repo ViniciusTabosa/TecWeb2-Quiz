@@ -4,19 +4,19 @@
     background-color:#fe9438be;
     border-radius: 20px;
     display: block;
-    margin: auto auto;
+    margin:  90px auto 0 auto;
 }
 
 .container_login{
     position: relative;
-
+    
 }
 
 .container_login img{
     display: block;
     max-width: 256px;
     width: 100%;
-    top: 0px;
+    top: 30px;
     right: 40px;
     position: absolute;
     z-index: 5;
@@ -28,17 +28,22 @@
     letter-spacing: 0.2rem;
     font-size: 1.75rem;
     color: #FAF0CA;
-    margin-bottom: 30px;
-    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    display: inline-block;
+   
 }
 
 .form-login{
     width: 350px;
-    margin-left: 30px;  
+    height: 260px;
+    margin-left: 30px;
+    margin-top: 30px; 
+  
  }
 
 #form2{
-   padding: 2%;
+    padding: 2% ;
  }
 
 .input2{
@@ -87,7 +92,7 @@
 .btn2{
     display: block;
     margin: 0 auto;
-    margin-top: -40px;
+    margin-top: 60px;
 }
 
 .btn-entrar{
@@ -99,7 +104,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 50px;
-    margin-top: 80px;
+
     text-transform: uppercase;
     font-family: "Orbitron", sans-serif;
     font-weight: bolder;
