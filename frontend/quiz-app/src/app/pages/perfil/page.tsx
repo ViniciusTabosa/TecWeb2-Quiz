@@ -5,7 +5,7 @@ export default function pagePerfil() {
   return(
     <>
       <Fundo />
-      {/* <Perfil /> */}
+      <Perfil />
     </>
   )
 }
