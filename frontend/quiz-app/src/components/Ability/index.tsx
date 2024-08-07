@@ -60,8 +60,14 @@ const Ability: React.FC<QuestionsProps> = ({ selectedCharacter }) => {
       setOxygenLevel((prevLevel) => Math.min(prevLevel + 5, 100));
       console.log(`Resposta correta: Aumentou o nível de oxigênio em 5.`);
     } else {
-      setOxygenLevel((prevLevel) => Math.max(prevLevel - penalty, 0));
-      console.log(`Resposta incorreta: Diminuiu o nível de oxigênio em ${penalty}.`);
+      // Verificar se o personagem é "Sol the Dreamer" e se a habilidade foi usada
+      if (selectedCharacter?.name === 'Sol the Dreamer' && hasUsedDouble) {
+        setOxygenLevel((prevLevel) => Math.max(prevLevel - 5, 0));
+        console.log('Resposta incorreta: Diminuiu o nível de oxigênio em 5 devido à habilidade de Sol the Dreamer.');
+      } else {
+        setOxygenLevel((prevLevel) => Math.max(prevLevel - penalty, 0));
+        console.log(`Resposta incorreta: Diminuiu o nível de oxigênio em ${penalty}.`);
+      }
     }
 
     // Resetar habilidades específicas após cada pergunta
@@ -93,6 +99,7 @@ const Ability: React.FC<QuestionsProps> = ({ selectedCharacter }) => {
 
     setDoubleForCurrentQuestion(true); // Dobrar pontos para a pergunta atual
     setHasUsedDouble(true); // Marca a habilidade como usada
+    setPenalty(5); // Ajusta a penalidade de oxigênio para -5
     console.log('Pontuação da pergunta atual dobrada.');
   };
 
