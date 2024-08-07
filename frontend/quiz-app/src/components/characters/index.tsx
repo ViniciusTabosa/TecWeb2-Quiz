@@ -1,6 +1,6 @@
 "use client";
 
-import './characters.css';
+
 import React, { useState, useEffect, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -12,8 +12,9 @@ import character2 from '../../assets/characters/2.png';
 import character3 from '../../assets/characters/3.png';
 import { EffectCards, Navigation, Pagination } from 'swiper/modules';
 import { StaticImageData } from 'next/image';
-import Questions from '../Questions';
+import Questions from '../Ability';
 import SoundsComp from '../soundscomp'; 
+import './characters.css'
 
 type Characters = {
   name: string;
@@ -55,21 +56,16 @@ const characters: Characters[] = [
   },
 ];
 
-const Character: React.FC = () => {
-  const [selectedCharacter, setSelectedCharacter] = useState<Characters | null>(null);
-  
+interface CharacterProps {
+  onSelectCharacter: (character: Characters) => void;
+}
+
+const Character: React.FC<CharacterProps> = ({ onSelectCharacter }) => {
   const swiperRef = useRef<any>(null); 
 
   const handleSelectCharacter = (character: Characters) => {
-    setSelectedCharacter(character);
-    console.log(`Personagem selecionado: ${character.id}`); // Agora você pode acessar o id
+    onSelectCharacter(character);
   };
-
-  useEffect(() => {
-    if (selectedCharacter) {
-      console.log(`Personagem selecionado: ${selectedCharacter.name}`);
-    }
-  }, [selectedCharacter]);
 
   const getClassNameForCharacter = (character: Characters) => {
     switch (character.id) {
@@ -124,13 +120,6 @@ const Character: React.FC = () => {
         ))}
       </Swiper>
       <div className="swiper-button-next-custom"></div> {/* Adicionado botão de seta seguinte */}
-      {selectedCharacter && (
-        <div className="selected-character">
-          <h3>Personagem Selecionado:</h3>
-          <p>{selectedCharacter.name}</p>
-          <Questions selectedCharacter={selectedCharacter} /> {/* Passa o personagem selecionado para o Quiz */}
-        </div>
-      )}
     </div>
   );
 };

@@ -1,0 +1,842 @@
+[
+   {
+      "id":1,
+      "texto_pergunta":"Qual é o planeta mais próximo do Sol?",
+      "pontos":5,
+      "nivel_dificuldade":1,
+      "alternativas":[
+         {
+            "id":1,
+            "texto_opcao":"a) Marte",
+            "is_correta":0
+         },
+         {
+            "id":2,
+            "texto_opcao":"b) Júpiter",
+            "is_correta":0
+         },
+         {
+            "id":3,
+            "texto_opcao":"c) Vênus",
+            "is_correta":0
+         },
+         {
+            "id":4,
+            "texto_opcao":"d) Mercúrio",
+            "is_correta":1
+         }
+      ]
+   },
+   {
+      "id":2,
+      "texto_pergunta":"Qual é o maior planeta do Sistema Solar?",
+      "pontos":5,
+      "nivel_dificuldade":1,
+      "alternativas":[
+         {
+            "id":5,
+            "texto_opcao":"a) Terra",
+            "is_correta":0
+         },
+         {
+            "id":6,
+            "texto_opcao":"b) Marte",
+            "is_correta":0
+         },
+         {
+            "id":7,
+            "texto_opcao":"c) Vênus",
+            "is_correta":0
+         },
+         {
+            "id":8,
+            "texto_opcao":"d) Júpiter",
+            "is_correta":1
+         }
+      ]
+   },
+   {
+      "id":3,
+      "texto_pergunta":"Qual planeta é conhecido como o \"Planeta Vermelho\"?",
+      "pontos":5,
+      "nivel_dificuldade":1,
+      "alternativas":[
+         {
+            "id":9,
+            "texto_opcao":"a) Terra",
+            "is_correta":0
+         },
+         {
+            "id":10,
+            "texto_opcao":"b) Marte",
+            "is_correta":1
+         },
+         {
+            "id":11,
+            "texto_opcao":"c) Júpiter",
+            "is_correta":0
+         },
+         {
+            "id":12,
+            "texto_opcao":"d) Saturno",
+            "is_correta":0
+         }
+      ]
+   },
+   {
+      "id":4,
+      "texto_pergunta":"Qual é o satélite natural da Terra?",
+      "pontos":5,
+      "nivel_dificuldade":1,
+      "alternativas":[
+         {
+            "id":13,
+            "texto_opcao":"a) Lua",
+            "is_correta":1
+         },
+         {
+            "id":14,
+            "texto_opcao":"b) Europa",
+            "is_correta":0
+         },
+         {
+            "id":15,
+            "texto_opcao":"c) Io",
+            "is_correta":0
+         },
+         {
+            "id":16,
+            "texto_opcao":"d) Ganimedes",
+            "is_correta":0
+         }
+      ]
+   },
+   {
+      "id":5,
+      "texto_pergunta":"Qual é o nome da nossa galáxia?",
+      "pontos":5,
+      "nivel_dificuldade":1,
+      "alternativas":[
+         {
+            "id":17,
+            "texto_opcao":"a) Via Láctea",
+            "is_correta":1
+         },
+         {
+            "id":18,
+            "texto_opcao":"b) Andrômeda",
+            "is_correta":0
+         },
+         {
+            "id":19,
+            "texto_opcao":"c) Sombrero",
+            "is_correta":0
+         },
+         {
+            "id":20,
+            "texto_opcao":"d) Triângulo",
+            "is_correta":0
+         }
+      ]
+   },
+   {
+      "id":6,
+      "texto_pergunta":"O que é um eclipse solar?",
+      "pontos":5,
+      "nivel_dificuldade":1,
+      "alternativas":[
+         {
+            "id":21,
+            "texto_opcao":"a) A Lua passando entre a Terra e o Sol",
+            "is_correta":1
+         },
+         {
+            "id":22,
+            "texto_opcao":"b) A Terra passando entre o Sol e a Lua",
+            "is_correta":0
+         },
+         {
+            "id":23,
+            "texto_opcao":"c) O Sol passando entre a Terra e a Lua",
+            "is_correta":0
+         },
+         {
+            "id":24,
+            "texto_opcao":"d) A Lua passando entre o Sol e Marte",
+            "is_correta":0
+         }
+      ]
+   },
+   {
+      "id":7,
+      "texto_pergunta":"Quantos planetas existem no Sistema Solar?",
+      "pontos":5,
+      "nivel_dificuldade":1,
+      "alternativas":[
+         {
+            "id":25,
+            "texto_opcao":"a) 6",
+            "is_correta":0
+         },
+         {
+            "id":26,
+            "texto_opcao":"b) 7",
+            "is_correta":0
+         },
+         {
+            "id":27,
+            "texto_opcao":"c) 8",
+            "is_correta":1
+         },
+         {
+            "id":28,
+            "texto_opcao":"d) 9",
+            "is_correta":0
+         }
+      ]
+   },
+   {
+      "id":8,
+      "texto_pergunta":"Qual planeta tem anéis visíveis ao seu redor?",
+      "pontos":5,
+      "nivel_dificuldade":1,
+      "alternativas":[
+         {
+            "id":29,
+            "texto_opcao":"a) Vênus",
+            "is_correta":0
+         },
+         {
+            "id":30,
+            "texto_opcao":"b) Marte",
+            "is_correta":0
+         },
+         {
+            "id":31,
+            "texto_opcao":"c) Júpiter",
+            "is_correta":0
+         },
+         {
+            "id":32,
+            "texto_opcao":"d) Saturno",
+            "is_correta":1
+         }
+      ]
+   },
+   {
+      "id":9,
+      "texto_pergunta":"Qual é o nome do segundo planeta a partir do Sol?",
+      "pontos":5,
+      "nivel_dificuldade":1,
+      "alternativas":[
+         {
+            "id":33,
+            "texto_opcao":"a) Mercúrio",
+            "is_correta":0
+         },
+         {
+            "id":34,
+            "texto_opcao":"b) Terra",
+            "is_correta":0
+         },
+         {
+            "id":35,
+            "texto_opcao":"c) Marte",
+            "is_correta":0
+         },
+         {
+            "id":36,
+            "texto_opcao":"d) Vênus",
+            "is_correta":1
+         }
+      ]
+   },
+   {
+      "id":10,
+      "texto_pergunta":"Qual é o menor planeta do Sistema Solar?",
+      "pontos":5,
+      "nivel_dificuldade":1,
+      "alternativas":[
+         {
+            "id":37,
+            "texto_opcao":"a) Marte",
+            "is_correta":0
+         },
+         {
+            "id":38,
+            "texto_opcao":"b) Vênus",
+            "is_correta":0
+         },
+         {
+            "id":39,
+            "texto_opcao":"c) Mercúrio",
+            "is_correta":1
+         },
+         {
+            "id":40,
+            "texto_opcao":"d) Terra",
+            "is_correta":0
+         }
+      ]
+   },
+   {
+      "id":11,
+      "texto_pergunta":"Qual é a maior lua de Saturno?",
+      "pontos":10,
+      "nivel_dificuldade":2,
+      "alternativas":[
+         {
+            "id":41,
+            "texto_opcao":"a) Europa",
+            "is_correta":0
+         },
+         {
+            "id":42,
+            "texto_opcao":"b) Ganimedes",
+            "is_correta":0
+         },
+         {
+            "id":43,
+            "texto_opcao":"c) Io",
+            "is_correta":0
+         },
+         {
+            "id":44,
+            "texto_opcao":"d) Titã",
+            "is_correta":1
+         }
+      ]
+   },
+   {
+      "id":12,
+      "texto_pergunta":"Qual é a composição principal das estrelas?",
+      "pontos":10,
+      "nivel_dificuldade":2,
+      "alternativas":[
+         {
+            "id":45,
+            "texto_opcao":"a) Oxigênio",
+            "is_correta":0
+         },
+         {
+            "id":46,
+            "texto_opcao":"b) Hélio",
+            "is_correta":0
+         },
+         {
+            "id":47,
+            "texto_opcao":"c) Hidrogênio",
+            "is_correta":1
+         },
+         {
+            "id":48,
+            "texto_opcao":"d) Carbono",
+            "is_correta":0
+         }
+      ]
+   },
+   {
+      "id":13,
+      "texto_pergunta":"Qual é o nome do maior vulcão conhecido no Sistema Solar e onde ele está localizado?",
+      "pontos":10,
+      "nivel_dificuldade":2,
+      "alternativas":[
+         {
+            "id":49,
+            "texto_opcao":"a) Mauna Kea, Terra",
+            "is_correta":0
+         },
+         {
+            "id":50,
+            "texto_opcao":"b) Olympus Mons, Marte",
+            "is_correta":1
+         },
+         {
+            "id":51,
+            "texto_opcao":"c) Monte Everest, Terra",
+            "is_correta":0
+         },
+         {
+            "id":52,
+            "texto_opcao":"d) Tamu Massif, Terra",
+            "is_correta":0
+         }
+      ]
+   },
+   {
+      "id":14,
+      "texto_pergunta":"Qual é o nome do primeiro homem a pisar na Lua?",
+      "pontos":10,
+      "nivel_dificuldade":2,
+      "alternativas":[
+         {
+            "id":53,
+            "texto_opcao":"a) Yuri Gagarin",
+            "is_correta":0
+         },
+         {
+            "id":54,
+            "texto_opcao":"b) Buzz Aldrin",
+            "is_correta":0
+         },
+         {
+            "id":55,
+            "texto_opcao":"c) Alan Shepard",
+            "is_correta":0
+         },
+         {
+            "id":56,
+            "texto_opcao":"d) Neil Armstrong",
+            "is_correta":1
+         }
+      ]
+   },
+   {
+      "id":15,
+      "texto_pergunta":"Qual é o maior planeta anão do Sistema Solar?",
+      "pontos":10,
+      "nivel_dificuldade":2,
+      "alternativas":[
+         {
+            "id":57,
+            "texto_opcao":"a) Plutão",
+            "is_correta":1
+         },
+         {
+            "id":58,
+            "texto_opcao":"b) Éris",
+            "is_correta":0
+         },
+         {
+            "id":59,
+            "texto_opcao":"c) Ceres",
+            "is_correta":0
+         },
+         {
+            "id":60,
+            "texto_opcao":"d) Haumea",
+            "is_correta":0
+         }
+      ]
+   },
+   {
+      "id":16,
+      "texto_pergunta":"Em que ano foi lançado o telescópio espacial Hubble?",
+      "pontos":10,
+      "nivel_dificuldade":2,
+      "alternativas":[
+         {
+            "id":61,
+            "texto_opcao":"a) 1985",
+            "is_correta":0
+         },
+         {
+            "id":62,
+            "texto_opcao":"b) 1990",
+            "is_correta":1
+         },
+         {
+            "id":63,
+            "texto_opcao":"c) 1995",
+            "is_correta":0
+         },
+         {
+            "id":64,
+            "texto_opcao":"d) 2000",
+            "is_correta":0
+         }
+      ]
+   },
+   {
+      "id":17,
+      "texto_pergunta":"Qual é a galáxia mais próxima da Via Láctea?",
+      "pontos":10,
+      "nivel_dificuldade":2,
+      "alternativas":[
+         {
+            "id":65,
+            "texto_opcao":"a) Andrômeda",
+            "is_correta":1
+         },
+         {
+            "id":66,
+            "texto_opcao":"b) Triangulum",
+            "is_correta":0
+         },
+         {
+            "id":67,
+            "texto_opcao":"c) Sombrero",
+            "is_correta":0
+         },
+         {
+            "id":68,
+            "texto_opcao":"d) Centaurus A",
+            "is_correta":0
+         }
+      ]
+   },
+   {
+      "id":18,
+      "texto_pergunta":"Qual é o nome do efeito que descreve a mudança na frequência das ondas de luz ou som à medida que a fonte e o observador se movem em direção ou para longe um do outro?",
+      "pontos":10,
+      "nivel_dificuldade":2,
+      "alternativas":[
+         {
+            "id":69,
+            "texto_opcao":"a) Efeito Doppler",
+            "is_correta":1
+         },
+         {
+            "id":70,
+            "texto_opcao":"b) Efeito Peltier",
+            "is_correta":0
+         },
+         {
+            "id":71,
+            "texto_opcao":"c) Efeito Fotoelétrico",
+            "is_correta":0
+         },
+         {
+            "id":72,
+            "texto_opcao":"d) Efeito Joule",
+            "is_correta":0
+         }
+      ]
+   },
+   {
+      "id":19,
+      "texto_pergunta":"Qual é a idade estimada do Universo?",
+      "pontos":10,
+      "nivel_dificuldade":2,
+      "alternativas":[
+         {
+            "id":73,
+            "texto_opcao":"a) 4,5 bilhões de anos",
+            "is_correta":0
+         },
+         {
+            "id":74,
+            "texto_opcao":"b) 13,8 bilhões de anos",
+            "is_correta":1
+         },
+         {
+            "id":75,
+            "texto_opcao":"c) 10,5 bilhões de anos",
+            "is_correta":0
+         },
+         {
+            "id":76,
+            "texto_opcao":"d) 2 bilhões de anos",
+            "is_correta":0
+         }
+      ]
+   },
+   {
+      "id":20,
+      "texto_pergunta":"Qual é a distância aproximada da Terra ao Sol?",
+      "pontos":10,
+      "nivel_dificuldade":2,
+      "alternativas":[
+         {
+            "id":77,
+            "texto_opcao":"a) 1 milhão de km",
+            "is_correta":0
+         },
+         {
+            "id":78,
+            "texto_opcao":"b) 50 milhões de km",
+            "is_correta":0
+         },
+         {
+            "id":79,
+            "texto_opcao":"c) 150 milhões de km",
+            "is_correta":1
+         },
+         {
+            "id":80,
+            "texto_opcao":"d) 500 milhões de km",
+            "is_correta":0
+         }
+      ]
+   },
+   {
+      "id":21,
+      "texto_pergunta":"Qual é o nome da missão que primeiro pousou uma sonda em um cometa?",
+      "pontos":15,
+      "nivel_dificuldade":3,
+      "alternativas":[
+         {
+            "id":81,
+            "texto_opcao":"a) Cassini",
+            "is_correta":0
+         },
+         {
+            "id":82,
+            "texto_opcao":"b) New Horizons",
+            "is_correta":0
+         },
+         {
+            "id":83,
+            "texto_opcao":"c) Rosetta",
+            "is_correta":1
+         },
+         {
+            "id":84,
+            "texto_opcao":"d) Voyager 1",
+            "is_correta":0
+         }
+      ]
+   },
+   {
+      "id":22,
+      "texto_pergunta":"Qual é o elemento mais abundante na atmosfera de Vênus?",
+      "pontos":15,
+      "nivel_dificuldade":3,
+      "alternativas":[
+         {
+            "id":85,
+            "texto_opcao":"a) Oxigênio",
+            "is_correta":0
+         },
+         {
+            "id":86,
+            "texto_opcao":"b) Nitrogênio",
+            "is_correta":0
+         },
+         {
+            "id":87,
+            "texto_opcao":"c) Hidrogênio",
+            "is_correta":0
+         },
+         {
+            "id":88,
+            "texto_opcao":"d) Dióxido de carbono",
+            "is_correta":1
+         }
+      ]
+   },
+   {
+      "id":23,
+      "texto_pergunta":"Qual é a estrela mais próxima do Sistema Solar?",
+      "pontos":15,
+      "nivel_dificuldade":3,
+      "alternativas":[
+         {
+            "id":89,
+            "texto_opcao":"a) Sirius",
+            "is_correta":0
+         },
+         {
+            "id":90,
+            "texto_opcao":"b) Alfa Centauri",
+            "is_correta":0
+         },
+         {
+            "id":91,
+            "texto_opcao":"c) Betelgeuse",
+            "is_correta":0
+         },
+         {
+            "id":92,
+            "texto_opcao":"d) Proxima Centauri",
+            "is_correta":1
+         }
+      ]
+   },
+   {
+      "id":24,
+      "texto_pergunta":"Qual é o nome da maior estrutura conhecida no Universo?",
+      "pontos":15,
+      "nivel_dificuldade":3,
+      "alternativas":[
+         {
+            "id":93,
+            "texto_opcao":"a) Grande Muralha Sloan",
+            "is_correta":0
+         },
+         {
+            "id":94,
+            "texto_opcao":"b) Grande Muralha Hércules-Corona Borealis",
+            "is_correta":1
+         },
+         {
+            "id":95,
+            "texto_opcao":"c) Superaglomerado de Laniakea",
+            "is_correta":0
+         },
+         {
+            "id":96,
+            "texto_opcao":"d) Superaglomerado de Shapley",
+            "is_correta":0
+         }
+      ]
+   },
+   {
+      "id":25,
+      "texto_pergunta":"Qual é a temperatura aproximada da superfície do Sol?",
+      "pontos":15,
+      "nivel_dificuldade":3,
+      "alternativas":[
+         {
+            "id":97,
+            "texto_opcao":"a) 1.000°C",
+            "is_correta":0
+         },
+         {
+            "id":98,
+            "texto_opcao":"b) 3.000°C",
+            "is_correta":0
+         },
+         {
+            "id":99,
+            "texto_opcao":"c) 5.500°C",
+            "is_correta":1
+         },
+         {
+            "id":100,
+            "texto_opcao":"d) 10.000°C",
+            "is_correta":0
+         }
+      ]
+   },
+   {
+      "id":26,
+      "texto_pergunta":"Qual é a principal teoria sobre a origem do Universo?",
+      "pontos":15,
+      "nivel_dificuldade":3,
+      "alternativas":[
+         {
+            "id":101,
+            "texto_opcao":"a) Teoria da Expansão Estática",
+            "is_correta":0
+         },
+         {
+            "id":102,
+            "texto_opcao":"b) Teoria do Universo Oscilante",
+            "is_correta":0
+         },
+         {
+            "id":103,
+            "texto_opcao":"c) Teoria do Big Bang",
+            "is_correta":1
+         },
+         {
+            "id":104,
+            "texto_opcao":"d) Teoria do Estado Estacionário",
+            "is_correta":0
+         }
+      ]
+   },
+   {
+      "id":27,
+      "texto_pergunta":"Qual é o nome do fenômeno pelo qual um objeto em rotação rápida se achata nos polos e se alarga no equador?",
+      "pontos":15,
+      "nivel_dificuldade":3,
+      "alternativas":[
+         {
+            "id":105,
+            "texto_opcao":"a) Precessão",
+            "is_correta":0
+         },
+         {
+            "id":106,
+            "texto_opcao":"b) Nutação",
+            "is_correta":0
+         },
+         {
+            "id":107,
+            "texto_opcao":"c) Efeito Coriolis",
+            "is_correta":0
+         },
+         {
+            "id":108,
+            "texto_opcao":"d) Oblatividade",
+            "is_correta":1
+         }
+      ]
+   },
+   {
+      "id":28,
+      "texto_pergunta":"Qual é o nome do cinturão de asteróides localizado entre Marte e Júpiter?",
+      "pontos":15,
+      "nivel_dificuldade":3,
+      "alternativas":[
+         {
+            "id":109,
+            "texto_opcao":"a) Cinturão de Kuiper",
+            "is_correta":0
+         },
+         {
+            "id":110,
+            "texto_opcao":"b) Nuvem de Oort",
+            "is_correta":0
+         },
+         {
+            "id":111,
+            "texto_opcao":"c) Cinturão de Van Allen",
+            "is_correta":0
+         },
+         {
+            "id":112,
+            "texto_opcao":"d) Cinturão de Asteróides",
+            "is_correta":1
+         }
+      ]
+   },
+   {
+      "id":29,
+      "texto_pergunta":"Qual é a taxa de expansão atual do Universo, também conhecida como a constante de Hubble?",
+      "pontos":15,
+      "nivel_dificuldade":3,
+      "alternativas":[
+         {
+            "id":113,
+            "texto_opcao":"a) 30 km/s/Mpc",
+            "is_correta":0
+         },
+         {
+            "id":114,
+            "texto_opcao":"b) 50 km/s/Mpc",
+            "is_correta":0
+         },
+         {
+            "id":115,
+            "texto_opcao":"c) 70 km/s/Mpc",
+            "is_correta":1
+         },
+         {
+            "id":116,
+            "texto_opcao":"d) 90 km/s/Mpc",
+            "is_correta":0
+         }
+      ]
+   },
+   {
+      "id":30,
+      "texto_pergunta":"Qual é o nome do fenômeno que descreve a deformação do espaço-tempo causada pela presença de massa?",
+      "pontos":15,
+      "nivel_dificuldade":3,
+      "alternativas":[
+         {
+            "id":117,
+            "texto_opcao":"a) Relatividade Especial",
+            "is_correta":0
+         },
+         {
+            "id":118,
+            "texto_opcao":"b) Relatividade Geral",
+            "is_correta":1
+         },
+         {
+            "id":119,
+            "texto_opcao":"c) Efeito Doppler",
+            "is_correta":0
+         },
+         {
+            "id":120,
+            "texto_opcao":"d) Teoria das Cordas",
+            "is_correta":0
+         }
+      ]
+   }
+]
