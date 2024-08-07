@@ -54,15 +54,28 @@ const Quiz: React.FC<QuizProps> = ({ onAnswer, excludeWrongAnswers, doublePoints
   };
 
   const getPoints = (nivelDificuldade: number, isCorrect: boolean): number => {
-    switch (nivelDificuldade) {
-      case 1:
-        return isCorrect ? 5 : -2;
-      case 2:
-        return isCorrect ? 10 : -5;
-      case 3:
-        return isCorrect ? 15 : -7;
-      default:
-        return 0;
+    if (excludeWrongAnswers) {
+      switch (nivelDificuldade) {
+        case 1:
+          return isCorrect ? 2 : -1;
+        case 2:
+          return isCorrect ? -5 : -10;
+        case 3:
+          return isCorrect ? -5 : -15;
+        default:
+          return 0;
+      }
+    } else {
+      switch (nivelDificuldade) {
+        case 1:
+          return isCorrect ? 5 : -2;
+        case 2:
+          return isCorrect ? 10 : -5;
+        case 3:
+          return isCorrect ? 15 : -7;
+        default:
+          return 0;
+      }
     }
   };
 

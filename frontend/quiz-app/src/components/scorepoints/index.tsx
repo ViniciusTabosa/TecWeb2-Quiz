@@ -24,9 +24,9 @@ const ScorePoints: React.FC<ScorePointsProps> = ({ nivelDificuldade, isCorrect }
   return (
     <div className="score-points">
       {isCorrect ? (
-        <p>Você ganhou {points} pontos!</p>
+        <p>Parabéns, você acertou!</p>
       ) : (
-        <p>Você perdeu {Math.abs(points)} pontos.</p>
+        <p>Infelizmente você errou.</p>
       )}
     </div>
   );
