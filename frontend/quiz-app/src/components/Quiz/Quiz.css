@@ -1,0 +1,50 @@
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 600px; /* Define uma largura máxima para o cartão */
+  margin: 20px auto; /* Centraliza o cartão com margem nas laterais */
+  width: 90%; /* Faz com que o cartão use a maior parte da largura da tela */
+}
+
+.quiz-container h2 {
+  font-size: 1.75rem; /* Aumenta o tamanho da fonte */
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333333;
+}
+
+.quiz-buttons {
+  display: flex;
+  flex-direction: column; /* Alinha os botões em uma coluna */
+  gap: 10px; /* Adiciona espaçamento entre os botões */
+  width: 100%; /* Faz com que os botões usem a largura disponível */
+}
+
+.quiz-button {
+  padding: 12px 24px; /* Ajusta o padding dos botões */
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px; /* Aumenta o arredondamento dos cantos */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Adiciona transições suaves */
+  width: 100%; /* Faz com que os botões ocupem toda a largura disponível */
+}
+
+.quiz-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Adiciona efeito de aumento no hover */
+}
+
+.quiz-button:active {
+  background-color: #004080;
+  transform: scale(0.95); /* Adiciona efeito de diminuição no clique */
+}
+
+
