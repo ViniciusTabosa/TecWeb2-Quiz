@@ -1,7 +1,12 @@
+
+import React from 'react';
 import './cadastro.css'
 import Img from '@/app/fotos_do site/outer-space.png'
 
+
+
 export const Cadastro = () => {
+
     return(
         <div className="container-form-bg">
 

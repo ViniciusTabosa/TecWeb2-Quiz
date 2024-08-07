@@ -60,41 +60,27 @@
     justify-content: space-evenly;   
 }
 
-.botaos button{
+.botaos a{
     padding: 16px 32px;
     border-radius: 50px;
     text-transform: uppercase;
-    font-family: "Orbitron", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     border: none;
     color: #02040F;
     cursor: pointer;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .btn_voltar{
     background-color: #FAF0CA;
 }
 
-.btn_deletar{
-    background-color: rgb(221, 103, 103);
-   
-    font-weight: 500;
-    letter-spacing: 0.1rem;
-}
-
-.btn_deletar:hover{
-    background-color: rgba(221, 103, 103, 0.664);
-}
 
 .btn_voltar:hover{
     background-color: #f5f2e4de;
-}
-
-.btn_jogar{
-    background-color: #56876D;
-}
-
-.btn_jogar:hover{
-    background-color: #56876D;
 }
 
 /* @media(min-width: 1650px) and (max-width: 2500px){

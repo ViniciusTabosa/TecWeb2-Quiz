@@ -2,7 +2,8 @@
 "use client"; // Isso garante que o componente será renderizado no cliente
 
 import React from 'react';
-import { Resultados } from './Resultados';
+import { Perfil } from './Perfil';
+
 
 
 interface DeletarContaBotaoProps {
@@ -11,7 +12,7 @@ interface DeletarContaBotaoProps {
 
 const DeletarContaBotao: React.FC<DeletarContaBotaoProps> = ({ onDelete }) => {
     return (
-        <button className="btn_deletar" onClick={onDelete}>Deletar conta</button>
+        <a className="btn-deletar" onClick={onDelete}>Deletar conta</a>
     );
 };
 
