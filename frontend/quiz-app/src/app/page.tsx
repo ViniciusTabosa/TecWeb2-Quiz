@@ -7,6 +7,7 @@ import { Cadastro } from '@/components/Cadastro';
 import { Login } from '@/components/Login';
 import { Resultados } from '@/components/Resultados';
 import Character from '@/components/characters';
+import CharacterPage from '@/pages/CharacterPage';
 
 export default function page() {
   return (
@@ -29,7 +30,7 @@ export default function page() {
       <div className="estrela2"></div>
       <div className="estrela3"></div>
       <div className="estrela4"></div>
-      <Character />
+      <CharacterPage />
       {/* <Resultados /> */}
       {/* <Login /> */}
       {/* <Cadastro /> */}
