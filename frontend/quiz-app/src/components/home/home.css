@@ -50,10 +50,11 @@
     font-family: "Orbitron", sans-serif;
     font-weight: bolder;
     letter-spacing: 0.2rem;
-    cursor: pointer;
+    color: #02040F;
     display: block;
     max-width: max-content;
     margin-left: 50px;
+    text-decoration: none;
 }
 
 .botao:hover{

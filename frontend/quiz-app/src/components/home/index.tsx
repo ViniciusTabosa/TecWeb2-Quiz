@@ -10,7 +10,7 @@ export const Home = () => {
             <div className="container">
                 <div className="container-inicial">
                     <h1 className='titulo_inicial'>Teste seus conhecimentos em astronomia básica!</h1>
-                    <Link href='/pages/login'><button className="botao">Começar</button></Link>
+                    <Link href='/pages/cadastro' className="botao">Começar</Link>
                 </div>
                 <div className="container-img">                    
                     <img src={Image.src} className='planeta'/>

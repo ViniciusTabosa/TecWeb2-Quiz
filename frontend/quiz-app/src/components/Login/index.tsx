@@ -1,5 +1,6 @@
 import './login.css'
 import Img from '@/app/fotos_do site/galaxybranca.png'
+import Link from 'next/link'
 
 export const Login = () => {
     return(
@@ -21,7 +22,7 @@ export const Login = () => {
                     </form>
                 </div>
                 <div className="btn2">
-                    <button className="btn-entrar">Entrar</button>
+                    <Link href='/pages/perfil' className="btn-entrar">Entrar</Link>
                 </div>
             </div>
 

@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import './globals.css'
+import  './globals.css'
 import Logo from '@/app/fotos_do site/Starion_Logo2.png'
 
 export const Fundo = () => {
@@ -9,16 +9,19 @@ export const Fundo = () => {
         <div className="logo">
           <img src={Logo.src} alt="" />
         </div>
+        
         <nav className="nav">
           <ul>
-              <Link href='/pages/login'>
-                <li>
-                  <a href="/" className="btn-Entar">Entrar</a>
-                </li>
+            <li>
+              <Link href='/pages/login' className="btn-Entar">                
+                Entrar              
               </Link>
-              <Link href='/pages/cadastro'><li><a href="/" className="btn-Conta">Criar conta</a></li></Link>
-              
-              
+            </li>
+            <li>  
+              <Link href='/pages/cadastro' className="btn-Conta">
+                Criar conta
+              </Link>
+            </li>             
           </ul>
         </nav>
       </header>

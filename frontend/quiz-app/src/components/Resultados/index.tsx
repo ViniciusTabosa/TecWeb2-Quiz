@@ -1,8 +1,37 @@
-import './resultados.css'
+"use client";
 
-export const Resultados = () => {
+import './resultados.css';
+import Link from 'next/link';
+import React, { useState } from 'react';
+import DeletarContaBotao from '../deletarConta';
+import CustomAlert from '../CustomAlert';
+import '../customAlert.css'
+
+
+
+export const Resultados: React.FC = () => {
+    // Função para deletar conta
+    const [showAlert, setShowAlert] = useState(false);
+
+    const handleDeleteAccount = () => {
+        setShowAlert(true);
+    };
+
+    const handleCloseAlert = () => {
+        setShowAlert(false);
+    };
+
+    
     return(
+      
         <div className="container_login2_bg">
+
+            {showAlert && (
+                <CustomAlert 
+                    message="Conta deletada com sucesso!" 
+                    onClose={handleCloseAlert} 
+                />
+            )}
     
             <div className="container_login2">
                 <div className="result_pessoal">
@@ -23,11 +52,12 @@ export const Resultados = () => {
 
             </div>
             <div className="botaos">
-                <button className="btn_voltar">Voltar</button>
-                <button className="btn_jogar">Jogar</button>
-                <button className="btn_deletar">Deletar conta</button>
+                <Link href='/pages/home' className="btn_voltar">Voltar</Link>
+                <Link className="btn_jogar" href='/pages/home'>Jogar</Link>
+                <DeletarContaBotao onDelete={handleDeleteAccount} />
             </div>
 
         </div>
     )
 }
+
