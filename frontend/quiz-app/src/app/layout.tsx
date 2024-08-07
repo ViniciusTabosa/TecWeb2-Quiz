@@ -1,7 +1,9 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import Logo from '@/app/fotos_do site/Starion_Logo2.png'
 import './globals.css';
+import { Home } from '@/components/home'
 
 const inter = Inter({ subsets: ['latin'] });
 

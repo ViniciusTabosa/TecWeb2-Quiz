@@ -1,8 +1,8 @@
 .container-form-bg{
     width: 400px;
-    height: 450px;
+    height: 500px;
     display: block;
-    margin: auto auto;
+    margin:  50px auto 0 auto;
     background-color:#EBD4B8;
     border-radius: 20px;
 }
@@ -12,10 +12,6 @@
     grid-template-rows: 300px 200px;
     border-radius: 20px;
     position: relative;
-}
-
-.container-form.ativo{
-    display: grid;
 }
 
 .container-form img{
@@ -93,7 +89,7 @@
 .btn{
     display: block;
     margin: 0 auto;
-    margin-top: -100px;
+    margin-top: -80px;
 }
 
 .btn-cadastrar{

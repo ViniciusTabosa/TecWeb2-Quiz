@@ -1,7 +1,12 @@
+
+import React from 'react';
 import './cadastro.css'
 import Img from '@/app/fotos_do site/outer-space.png'
 
+
+
 export const Cadastro = () => {
+
     return(
         <div className="container-form-bg">
 
@@ -28,27 +33,3 @@ export const Cadastro = () => {
         </div>
     )
 }
-
-{/*<div class="container-form-bg">
-
-        <div class="container-form">
-            <img src="fotos/outer-space.png" alt="">
-            <div class="form">
-                <h1 class="titulo_form">Cadastre-se</h1>
-                <form action="" id="form">
-                    <div class="input">
-                        <input required class="campo_input" type="text" id="nome">
-                        <label>Nome</label>
-                    </div>
-                    <div class="input">
-                        <input required class="campo_input" type="password" id="senha">
-                        <label>Senha</label>
-                    </div>
-                </form>
-            </div>
-            <div class="btn">
-                <a href="/" class="btn-cadastrar">Cadastrar</a>
-            </div>
-        </div>
-        
-    </div */}
