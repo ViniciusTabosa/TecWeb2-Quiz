@@ -2,6 +2,7 @@
 import React from 'react';
 import './cadastro.css'
 import Img from '@/app/fotos_do site/outer-space.png'
+import Link from 'next/link'
 
 
 
@@ -26,7 +27,7 @@ export const Cadastro = () => {
                     </form>
                 </div>
                 <div className="btn">
-                    <a href="/" className="btn-cadastrar">Cadastrar</a>
+                    <Link href="/pages/perfil" className="btn-cadastrar">Cadastrar</Link>
                 </div>
             </div>
 

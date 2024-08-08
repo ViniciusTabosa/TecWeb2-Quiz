@@ -1,22 +1,121 @@
 .container-perfil-bg{
+    width: 100%;
+    max-width: 1080px;
+    height: 550px;
+    display: grid;
+    grid-template-columns: 450px 600px;
+    gap: 0px 30px;
+     margin: 30px auto 0 auto; 
+}
+
+.container-perfil{
     width: 450px;
     height: 550px;
     background-color: #8da7be;
     border-radius: 20px;
-    display: block;
-    margin: 40px auto 0 auto;
-}
 
+}
 
 .container-perfil .desc{
     width: 100%;
     height: 250px;
     display: block;
-    margin-top: 30px;
     text-align: center;
 }
 
+.regras{
+    background-color: red;
+    border-radius: 20px;
+    width: 600px;
+    height: 550px;
+    background-color: #cfe5f8;
+}
 
+.container-explicacao p{
+
+    max-width: 60ch;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 0.875rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.titulo-regras{
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    color: #02040F;
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 1.75rem;
+    margin-top: 30px;
+}
+
+.nivel{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.subtitulo-niveis{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.niveis{
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(2,160px);
+    margin-left: auto;
+    margin-right: auto;
+    height: 110px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.acertos{
+    margin-top: 0px;
+
+}
+.erros{
+    margin-top: 0px;
+    width: 200px;
+    margin-left: 40px;
+}
+
+.oxigenio{
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    margin-left: auto;
+    margin-right: auto;
+    height: 110px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.oxi{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.subtitulo-oxi{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
 .container-perfil img{
     display: block;
