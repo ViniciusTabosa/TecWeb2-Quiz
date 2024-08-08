@@ -6,12 +6,12 @@ import{criarScoreJogador,
 
 // criar score de um jogador
 export const criarNovoScoreJogador = async (req, res) => {
-    const { jogador_id, pontuacao, tempo_conclusao } = req.body;
+    const { jogador_id, pontuacao} = req.body;
 
     try {
         const results = await new Promise((resolve, reject) => {
             const now = new Date();
-            criarScoreJogador(jogador_id, pontuacao, now, tempo_conclusao, (err, results) => {
+            criarScoreJogador(jogador_id, pontuacao, now, (err, results) => {
                 if (err) reject(err);
                 else resolve(results);
             });

@@ -1,9 +1,9 @@
 import {db} from '../db.js';
 
 // funcao para criar um novo registro de pontuação
-export const criarScoreJogador = (jogador_id, pontuacao, data_criacao, tempo_conclusao, callback)=>{
-    const query = 'INSERT INTO ranking (jogador_id, pontuacao, atualizado_em, tempo_conclusao ) VALUES (?,?,?,?);'
-    db.query(query, [jogador_id, pontuacao, data_criacao, tempo_conclusao], callback)
+export const criarScoreJogador = (jogador_id, pontuacao, data_criacao, callback)=>{
+    const query = 'INSERT INTO ranking (jogador_id, pontuacao, atualizado_em, tempo_conclusao ) VALUES (?,?,?);'
+    db.query(query, [jogador_id, pontuacao, data_criacao], callback)
 }
 
 // funcao para buscar o score de um jogador
