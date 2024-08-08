@@ -1,5 +1,6 @@
 import express from "express"
 import bodyParser from 'body-parser'
+import cors from 'cors'
 
 import jogadorRotas from './routes/jogadorRota.js';
 import selecaoRotas from './routes/jogadorPersonagemRota.js';
@@ -10,7 +11,9 @@ import scoreRotas from './routes/scoreRota.js'
 const app = express()
 const porta = 3000
 app.use(bodyParser.json());
-
+app.use(cors({
+    origin: 'http://localhost:3001'
+  }));
 // rotas
 app.use('/jogador', jogadorRotas);
 app.use('/selecao', selecaoRotas)

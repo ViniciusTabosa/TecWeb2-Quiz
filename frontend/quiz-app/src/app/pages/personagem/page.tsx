@@ -1,9 +1,10 @@
 "use client";
 
 import React, { useState } from 'react';
-import Character from '@/components/characters';
 import Ability from '@/components/Ability';
 import { StaticImageData } from 'next/image';
+import Character from '@/components/characters';
+import { Fundo } from '@/app/Fundo';
 
 
 type Characters = {
@@ -25,6 +26,7 @@ const CharacterPage: React.FC = () => {
 
   return (
     <div>
+      <Fundo />
       {!selectedCharacter ? (
         <Character onSelectCharacter={handleCharacterSelection} />
       ) : (

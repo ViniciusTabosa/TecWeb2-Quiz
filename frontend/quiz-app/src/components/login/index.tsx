@@ -3,6 +3,8 @@ import Img from '@/app/fotos_do site/galaxybranca.png'
 import Link from 'next/link'
 
 export const Login = () => {
+
+    
     return(
         <div className="container-login-bg">
         

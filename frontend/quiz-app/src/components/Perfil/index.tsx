@@ -22,6 +22,8 @@ export const Perfil: React.FC = () => {
         setShowAlert(false);
     };
 
+    
+
     return(
         <div className="container-perfil-bg">
 
@@ -40,7 +42,7 @@ export const Perfil: React.FC = () => {
                 </div>
                 <div className="desc2">
                     <Link href="/pages/home" className="btn-voltar">Voltar</Link>
-                    <Link href="/" className="btn-jogar">Jogar</Link>
+                    <Link href="/pages/personagem" className="btn-jogar">Jogar</Link>
                     <Link href="/pages/resultados" className="btn-podio">Pódio</Link>
                     <DeletarContaBotao onDelete={handleDeleteAccount} />
                 </div>

@@ -107,6 +107,8 @@
     font-weight: bolder;
     letter-spacing: 0.2rem;
     background-color: #FE9638;
+    border: none;
+    
 }
 
 .btn-cadastrar:hover{
