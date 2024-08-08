@@ -1,18 +1,17 @@
 import{criarScoreJogador,
     buscarScoresJogador,
     deletarScoreJogador,
-    buscarScoresJogadores,
     rankingPontuacoes,
 } from '../models/Score.js';
 
 // criar score de um jogador
 export const criarNovoScoreJogador = async (req, res) => {
-    const { jogador_id, pontuacao } = req.body;
+    const { jogador_id, pontuacao, tempo_conclusao } = req.body;
 
     try {
         const results = await new Promise((resolve, reject) => {
             const now = new Date();
-            criarScoreJogador(jogador_id, pontuacao, now, (err, results) => {
+            criarScoreJogador(jogador_id, pontuacao, now, tempo_conclusao, (err, results) => {
                 if (err) reject(err);
                 else resolve(results);
             });
@@ -73,27 +72,6 @@ export const removerScoreJogador = async (req, res) => {
     }
 };
 
-// Buscar todos os scores existentes
-export const buscarScoresExistentes = async (req, res) => {
-    try {
-        const scoresExistentes = await new Promise((resolve, reject) => {
-            buscarScoresJogadores((err, results) => {
-                if (err) reject(err);
-                else resolve(results);
-            });
-        });
-
-        if (scoresExistentes.length === 0) {
-            return res.status(404).json({ error: 'Nenhum score foi encontrado' });
-        }
-
-        // Enviar os scores existentes como resposta
-        res.json(scoresExistentes);
-    } catch (err) {
-        res.status(500).json({ error: 'Erro ao buscar scores' });
-    }
-};
-
 // Retornar o ranking das 10 melhores pontuações dentre todas os scores registrados
 export const rankingMelhoresPontuacoes = async (req, res) => {
     try {
@@ -114,7 +92,3 @@ export const rankingMelhoresPontuacoes = async (req, res) => {
         res.status(500).json({ error: 'Erro ao buscar o ranking' });
     }
 }
-
-
-
-
