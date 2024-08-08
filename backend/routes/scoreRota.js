@@ -3,7 +3,6 @@ import {
     criarNovoScoreJogador,
     buscarPontuacaoJogador,
     removerScoreJogador,
-    buscarScoresExistentes,
     rankingMelhoresPontuacoes
 } from '../controllers/scoreController.js';
 
@@ -19,7 +18,7 @@ router.get('/score_jogador/:jogador_id', buscarPontuacaoJogador);
 router.delete('/deletar_score/:jogador_id', removerScoreJogador);
 
 // Rota para buscar todos os scores
-router.get('/scores', buscarScoresExistentes);
+
 
 // Rota para buscar todos os scores
 router.get('/ranking', rankingMelhoresPontuacoes);
