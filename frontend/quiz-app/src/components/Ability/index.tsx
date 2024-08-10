@@ -478,7 +478,7 @@ const Ability: React.FC<QuestionsProps> = ({ selectedCharacter }) => {
         if (prevLevel <= 0) {
           clearInterval(timerRef.current!);
           setIsQuizOver(true);
-          console.log('Quiz terminado: Nível de oxigênio chegou a zero.');
+          console.log('Quiz finalizado.');
           saveScore(); // Salva a pontuação quando o quiz termina por oxigênio
           return 0;
         }
@@ -570,8 +570,8 @@ const Ability: React.FC<QuestionsProps> = ({ selectedCharacter }) => {
       </div>
       {isQuizOver ? (
         <div className="quiz-over">
-          <h2>Quiz Terminado</h2>
-          <p>Seu nível de oxigênio chegou a zero.</p>
+          <h2>Quiz Finalizado.</h2>
+          
         </div>
       ) : (
         <div>

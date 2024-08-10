@@ -1,4 +1,4 @@
-.container-bg{
+/* .container-bg{
     width: 1000px;
     height: 450px;
     display: block;
@@ -33,6 +33,97 @@
    max-width: 100%;
     max-height: 300px;
     margin-top: 300px;
+    margin-left: 150px;
+
+
+    /* position: absolute;
+    /* object-fit: cover;
+    display: block;
+}
+
+.botao{
+    padding: 16px 32px;
+    text-transform: uppercase;
+    background-color: #FE9638;
+    border: none;
+    border-radius: 50px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    color: #02040F;
+    display: block;
+    max-width: max-content;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color: #FCB75D;
+    animation: anima-botao 0.6s ease-in-out infinite alternate;
+}
+
+@keyframes anima-botao{
+    0% {
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+
+/* Smartphone
+@media (width <= 576){
+
+}
+
+/* Tablet
+
+@media(width <= 768px){
+
+}
+
+/* Tela grande
+@media(width >= 1610px){
+  
+  
+} */
+
+.container-bg{
+    width: 900px;
+    height: 400px;
+    display: block;
+    margin:  30px auto 0 auto;
+    border-radius: 20px;
+    background: #02040F;
+    overflow: hidden;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-auto-rows: 450px;
+    gap: 25px;
+    
+    
+}
+
+.titulo_inicial{
+    font-family: "Orbitron", sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    max-width: 15ch;
+    margin-left: 50px;
+    margin-top: 25px;
+    letter-spacing: 0.25em;
+    margin-bottom: 80px;
+    
+}
+
+.container-img .planeta{
+   max-width: 100%;
+    max-height: 300px;
+    margin-top: 200px;
     margin-left: 150px;
 
 

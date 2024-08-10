@@ -1,4 +1,4 @@
-.container-perfil-bg{
+/* /* .container-perfil-bg{
     width: 450px;
     height: 550px;
     background-color: #8da7be;
@@ -17,6 +17,414 @@
 }
 
 
+
+.container-perfil img{
+    display: block;
+    max-width: 128px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo-perfil{
+    margin-top: 30px;
+    margin-bottom: 0;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 1.75rem;
+}
+
+.subtitulo-nome{
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.desc2{
+    height: 260px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+ a{
+    text-decoration: none;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #fff;
+}
+
+
+.btn-voltar{
+    margin-bottom: 10px;
+    background-color:#303B4C;
+    
+}
+
+.btn-jogar{
+    margin-bottom: 10px;
+    background-color:#303B4C;
+    
+}
+.btn-podio{
+    margin-bottom: 10px;
+    background-color:#303B4C;
+    
+}
+
+.btn-deletar{
+    cursor: pointer;
+  background-color:  #CC7178;
+}
+
+.btn-voltar:hover, 
+.btn-jogar:hover,
+.btn-podio:hover{
+    background-color: #303b4c7a;
+}
+
+.btn-deletar:hover{
+    background-color: rgba(209, 129, 129, 0.877);
+} 
+
+.container-perfil-bg{
+    width: 100%;
+    max-width: 1080px;
+    height: 550px;
+    display: grid;
+    grid-template-columns: 450px 600px;
+    gap: 0px 30px;
+     margin: 30px auto 0 auto; 
+}
+
+.container-perfil{
+    width: 450px;
+    height: 550px;
+    background-color: #8da7be;
+    border-radius: 20px;
+
+}
+
+.container-perfil .desc{
+    width: 100%;
+    height: 250px;
+    display: block;
+    text-align: center;
+}
+
+.regras{
+    background-color: red;
+    border-radius: 20px;
+    width: 600px;
+    height: 550px;
+    background-color: #cfe5f8;
+}
+
+.container-explicacao p{
+
+    max-width: 60ch;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 0.875rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.titulo-regras{
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    color: #02040F;
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 1.75rem;
+    margin-top: 30px;
+}
+
+.nivel{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.subtitulo-niveis{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.niveis{
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(2,160px);
+    margin-left: auto;
+    margin-right: auto;
+    height: 110px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.acertos{
+    margin-top: 0px;
+
+}
+.erros{
+    margin-top: 0px;
+    width: 200px;
+    margin-left: 40px;
+}
+
+.oxigenio{
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    margin-left: auto;
+    margin-right: auto;
+    height: 110px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.oxi{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.subtitulo-oxi{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.container-perfil img{
+    display: block;
+    max-width: 128px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo-perfil{
+    margin-top: 30px;
+    margin-bottom: 0;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 1.75rem;
+}
+
+.subtitulo-nome{
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.desc2{
+    height: 260px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+ a{
+    text-decoration: none;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #fff;
+}
+
+
+.btn-voltar{
+    margin-bottom: 10px;
+    background-color:#303B4C;
+    
+}
+
+.btn-jogar{
+    margin-bottom: 10px;
+    background-color:#303B4C;
+    
+}
+.btn-podio{
+    margin-bottom: 10px;
+    background-color:#303B4C;
+    
+}
+
+.btn-deletar{
+    cursor: pointer;
+  background-color:  #CC7178;
+}
+
+.btn-voltar:hover, 
+.btn-jogar:hover,
+.btn-podio:hover{
+    background-color: #303b4c7a;
+}
+
+.btn-deletar:hover{
+    background-color: rgba(209, 129, 129, 0.877);
+}
+
+
+ */
+
+
+ .container-perfil-bg{
+    width: 100%;
+    max-width: 1080px;
+    height: 550px;
+    display: grid;
+    grid-template-columns: 450px 600px;
+    gap: 0px 30px;
+     margin: 30px auto 0 auto; 
+}
+
+.container-perfil{
+    width: 450px;
+    height: 550px;
+    background-color: #8da7be;
+    border-radius: 20px;
+
+}
+
+.container-perfil .desc{
+    width: 100%;
+    height: 250px;
+    display: block;
+    text-align: center;
+}
+
+.regras{
+    background-color: red;
+    border-radius: 20px;
+    width: 600px;
+    height: 550px;
+    background-color: #cfe5f8;
+}
+
+.container-explicacao p{
+
+    max-width: 60ch;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 0.875rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.titulo-regras{
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    color: #02040F;
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 1.75rem;
+    margin-top: 30px;
+}
+
+.nivel{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.subtitulo-niveis{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.niveis{
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(2,160px);
+    margin-left: auto;
+    margin-right: auto;
+    height: 110px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.acertos{
+    margin-top: 0px;
+
+}
+.erros{
+    margin-top: 0px;
+    width: 200px;
+    margin-left: 40px;
+}
+
+.oxigenio{
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    margin-left: auto;
+    margin-right: auto;
+    height: 110px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.oxi{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.subtitulo-oxi{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
 .container-perfil img{
     display: block;

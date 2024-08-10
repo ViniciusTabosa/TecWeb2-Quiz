@@ -1,4 +1,4 @@
-.container-form-bg{
+/* .container-form-bg{
     width: 400px;
     height: 500px;
     display: block;
@@ -109,6 +109,125 @@
     background-color: #FE9638;
     border: none;
     
+}
+
+.btn-cadastrar:hover{
+    background-color: #FCB75D;
+}
+ */
+
+
+ .container-form-bg{
+    width: 400px;
+    height: 420px;
+    display: block;
+    margin:  30px auto 0 auto;
+    background-color:#EBD4B8;
+    border-radius: 20px;
+}
+
+.container-form{
+    display: grid;
+    /* grid-template-rows: 300px 200px; */
+    border-radius: 20px;
+    position: relative;
+}
+
+.container-form img{
+    display: block;
+    max-width: 128px;
+    width: 100%;
+    top: 12px;
+    right: 12px;
+    position: absolute;
+    z-index: 5;
+}
+
+.form{
+    width: 300px;
+    margin-left: 30px;  
+    margin-top: 60px;
+ }
+
+#form{
+    width: 100%;
+    max-width: 300px;
+    padding: 2%;
+    margin-top: 60px;
+ }
+
+.input{
+    position: relative;
+    margin: 30px 0;
+}
+
+.input input{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid #fcb75d98;
+    background-color: #EBD4B8;
+    outline: none;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #02040F;
+    transition: 0.5s ease-in-out;
+}
+
+.input label{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    cursor: text;
+    transition: 0.5s ease-in-out;
+    font-size: 16px;
+}
+
+.campo_input:focus,
+.campo_input:valid{
+    border-bottom: 2px solid #FE9638;
+}
+
+.campo_input:focus ~ label, 
+.campo_input:valid ~ label {
+    transform: translateY(-30px);
+    font-size: 16px;
+    color: rgb(150,150,150);
+}
+
+.titulo_form{
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 1.75rem;
+    color: #02040F;
+    margin-bottom: -10px;
+    margin-top: -20px;
+}
+
+.btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -150px;
+}
+
+.btn-cadastrar{
+    color: #02040F;
+    text-decoration: none;
+    display: grid;
+    padding: 16px 32px;
+    width: 200px;
+    margin-top: 170px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    background-color: #FE9638;
 }
 
 .btn-cadastrar:hover{
