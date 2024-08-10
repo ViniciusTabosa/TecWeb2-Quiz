@@ -4,7 +4,7 @@ import React from 'react';
 
 import Link from 'next/link'
 
-import { useRouter } from 'next/router';
+import router, { useRouter } from 'next/router';
 
 interface CustomAlertProps {
     message: string;

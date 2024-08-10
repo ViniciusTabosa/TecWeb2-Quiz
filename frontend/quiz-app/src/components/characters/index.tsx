@@ -12,7 +12,6 @@ import character2 from '../../assets/characters/2.png';
 import character3 from '../../assets/characters/3.png';
 import { EffectCards, Navigation, Pagination } from 'swiper/modules';
 import { StaticImageData } from 'next/image';
-import Questions from '../Ability';
 import SoundsComp from '../soundscomp'; 
 import './characters.css'
 

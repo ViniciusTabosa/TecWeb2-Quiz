@@ -1,7 +1,7 @@
 import { Home } from '@/components/home';
 import { Fundo } from './Fundo';
 import './globals.css'
-import React from 'react'; // Ajuste o caminho conforme necessário
+import React from 'react';
 
 export default function page() {
   return (
