@@ -38,7 +38,7 @@ Esta API foi desenvolvida para gerenciar um jogo no formato QUIZ. Ela oferece fu
 
 ## Configuração
 
-Antes de iniciar o servidor, configure as credenciais do banco de dados no arquivo `db.js` localizado no diretório raiz:
+Antes de iniciar o servidor, configure as credenciais do banco de dados no arquivo `db.js` localizado no diretório raiz de acordo com o exemplo abaixo ou conforme suas preferências:
 
 ```javascript
 import mysql from "mysql";
