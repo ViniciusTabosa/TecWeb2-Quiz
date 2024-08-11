@@ -1,6 +1,6 @@
 # Starion API
 
-Esta API foi desenvolvida para gerenciar um jogo no formato QUIZ. Ela oferece funcionalidades para criar, ler, atualizar e excluir jogadores e personagens, além de consultar perguntas e alternativas do quiz, e também registrar pontuações e Ranking.
+Esta API foi desenvolvida para gerenciar um jogo no formato QUIZ, utilizando as tecnologias NodeJS e Node Express. Ela oferece funcionalidades para criar, ler, atualizar e excluir jogadores e personagens, além de consultar perguntas e alternativas do quiz, e também registrar pontuações e Ranking.
 
 ## Funcionalidades
 
