@@ -6,6 +6,7 @@ import{criarJogador,
 } from '../models/Jogador.js';
 
 import{deletarPersonagemDoJogador} from '../models/JogadorPersonagem.js'
+import{deletarScoreJogador} from '../models/Score.js'
 
 // criar um novo jogador
 export const criarNovoJogador = async (req, res) => {
@@ -74,13 +75,13 @@ export const deletarJogador = async (req, res) => {
             return res.status(404).json({ error: 'Jogador não encontrado' });
         }
 
-       /* await new Promise((resolve, reject) => {
-            deleteRankingByPlayerId(id, (err) => {
+       await new Promise((resolve, reject) => {
+            deletarScoreJogador(id, (err) => {
                 if (err) reject(err);
                 else resolve();
             });
         });
-*/
+
         await new Promise((resolve, reject) => {
             deletarPersonagemDoJogador(id, (err) => {
                 if (err) reject(err);
