@@ -16,6 +16,10 @@ Esta API foi desenvolvida para gerenciar um jogo no formato QUIZ. Ela oferece fu
 
 - **Gestão de Quiz:**
   - Consultar todas as perguntas e alternativas do quiz.
+ 
+- **Controle de Pontuação:**
+  - Consultar o TOP 10 pontuações.
+  - Consultar e Excluir o Score individual do jogador
 
 ## Instalação
 
